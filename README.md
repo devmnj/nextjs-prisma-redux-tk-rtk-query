@@ -1,8 +1,27 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# About
+
+This is a Nextjs **Redux-toolkit** store for state management example with RTK query
+
+The RTK Query will minimize the effort of creating a asyncThunk feature. RTK will autogenerate fuctions for us.
+
+## Modules used
+* Nextjs-cors
+* [Prisma]([''](https://www.prisma.io/))
+* Sqlite
+* [Redux-Toolkit](https://redux-toolkit.js.org/)
+* RTK Query
+
+Hope this project will help you.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies
+```bash
+npm install
+```
+
+ run the development server:
 
 ```bash
 npm run dev
@@ -14,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/users](http://localhost:3000/api/users). This endpoint can be edited in `pages/api/users.tsx`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
